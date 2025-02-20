@@ -35,4 +35,13 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
 - Staking enables **priority execution and rewards eligibility**.
 - Tokens are transferred from the **staker's account** to the **vault**.
 
+  ### **3️⃣ Updating Market Maker Performance**
+**Function:** `update_performance(ctx, execution_volume, spread_efficiency, order_flow)`  
+- Market makers' rewards are based on:
+  - **Execution volume**
+  - **Spread efficiency**
+  - **Order flow contributions**
+- Higher activity results in **higher reward payouts**.
+
+
 
