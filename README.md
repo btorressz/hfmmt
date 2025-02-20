@@ -54,6 +54,17 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
 
 - Liquidity providers **earn HFMMT rewards** based on the **duration of liquidity commitment**.
 
+  ### **6️⃣ Fee Rebates for Market Makers**
+**Function:** `claim_fee_rebate(ctx)`  
+- Market makers receive **rebates on trading fees** if they contribute significantly to liquidity.
+- **Rebate amount** is proportional to **execution volume**.
+
+### **7️⃣ Slashing for Inactivity**
+**Function:** `enforce_activity_slashing(ctx)`  
+- If a market maker **remains inactive for 30+ days**, **10% of their staked tokens** are slashed.
+- Prevents passive staking without contributing to market efficiency.
+
+
 
 
 
