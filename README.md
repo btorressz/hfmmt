@@ -6,6 +6,8 @@ The **High-Frequency Market-Making Token (HFMMT)** is a **staking and liquidity 
 
 The contract(program) is implemented using **Anchor for Solana** using **Solana Playground** and follows **efficient market-making principles**.
 
+**devnet**: (https://explorer.solana.com/address/GsvEYrds1qtwamYbHJpUTx3jeEV6XrCSdxDy8UCf6y9H?cluster=devnet)
+
 ## **Key Features**
 - 📌 **Incentivized Staking & Liquidity Provisioning:**  
   - Market makers stake HFMMT tokens to gain access to **low-latency execution privileges**.
