@@ -83,6 +83,24 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
 **Function:** `claim_insurance_payout(ctx)`  
 - **Protects liquidity providers** from **impermanent loss** by **compensating losses** in volatile conditions.
 
+  ---
+
+## **Security & Anti-Abuse Mechanisms**
+### **1️⃣ Anti-Sybil Attack Protections**
+- **Function:** `enforce_min_trade_volume(ctx)`  
+- Ensures **only legitimate market makers** receive rewards.
+- Minimum trade volume required to claim incentives.
+
+### **2️⃣ Anti-Front-Running Measures**
+- **Function:** `enforce_stake_cooldown(ctx)`  
+- **Cooldown period** prevents **priority execution abuse**.
+
+### **3️⃣ Dynamic Risk-Based Rewards**
+- **Function:** `adjust_rewards_by_volatility(ctx, volatility_index)`  
+- Higher **volatility = higher incentives** for market makers.
+
+---
+
 
 
 
