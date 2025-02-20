@@ -29,3 +29,10 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
   - `volatility_threshold` (used to adjust incentives dynamically).
 - This function **must** be called once by an admin to initialize the contract.
 
+  ### **2️⃣ Staking HFMMT Tokens**
+**Function:** `stake_tokens(ctx, amount)`  
+- Allows a **market maker** to stake tokens.
+- Staking enables **priority execution and rewards eligibility**.
+- Tokens are transferred from the **staker's account** to the **vault**.
+
+
