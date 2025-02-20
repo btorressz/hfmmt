@@ -64,6 +64,17 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
 - If a market maker **remains inactive for 30+ days**, **10% of their staked tokens** are slashed.
 - Prevents passive staking without contributing to market efficiency.
 
+### **8️⃣ Flash Loan Resistance for Liquidity Providers**
+**Function:** `claim_liquidity_rewards(ctx)`  
+- Liquidity rewards can **only be claimed after 7 days**, preventing **flash loan abuse**.
+
+### **9️⃣ Time-Based Liquidity Rewards**
+**Function:** `lock_liquidity(ctx, lock_duration)`  
+- Liquidity providers **earn bonus multipliers** if they **lock their liquidity**:
+  - **1-month lock → 1x rewards**
+  - **3-month lock → 1.5x rewards**
+  - **6-month lock → 2x rewards**
+
 
 
 
