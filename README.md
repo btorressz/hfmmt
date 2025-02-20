@@ -75,6 +75,15 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
   - **3-month lock → 1.5x rewards**
   - **6-month lock → 2x rewards**
 
+    ### **🔟 Gas Fee Rebates for High-Volume Traders**
+**Function:** `claim_gas_fee_rebate(ctx)`  
+- **High-frequency traders** can claim **gas fee rebates** based on execution volume.
+
+### **11 Liquidity Insurance Pool**
+**Function:** `claim_insurance_payout(ctx)`  
+- **Protects liquidity providers** from **impermanent loss** by **compensating losses** in volatile conditions.
+
+
 
 
 
