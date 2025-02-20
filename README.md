@@ -20,3 +20,12 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
   - Anti-front-running and Sybil resistance.
 
 ---
+
+## **Program Instructions**
+### **1️⃣ Initialize Configuration**
+**Function:** `initialize(ctx, config_params)`  
+- Sets up global parameters:
+  - `reward_rate` (how rewards are distributed).
+  - `volatility_threshold` (used to adjust incentives dynamically).
+- This function **must** be called once by an admin to initialize the contract.
+
