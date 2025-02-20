@@ -43,5 +43,17 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
   - **Order flow contributions**
 - Higher activity results in **higher reward payouts**.
 
+  ### **4️⃣ Distributing Rewards**
+**Function:** `distribute_rewards(ctx)`  
+- Calculates and distributes **staking and market-making rewards**.
+- If **auto-compound** is enabled, rewards are **automatically staked**.
+
+### **5️⃣ Liquidity Provisioning & Withdrawals**
+- **Provide Liquidity:** `provide_liquidity(ctx, amount)`  
+- **Withdraw Liquidity:** `withdraw_liquidity(ctx, amount)`  
+
+- Liquidity providers **earn HFMMT rewards** based on the **duration of liquidity commitment**.
+
+
 
 
