@@ -101,6 +101,13 @@ The contract(program) is implemented using **Anchor for Solana** using **Solana 
 
 ---
 
+## **Final Notes**
+- This program was designed using **Solana + Anchor**.
+- The goal is to **enhance DEX liquidity and market efficiency**.
+- The HFMMT token will be **core to high-frequency trading (HFT) strategies**.
+
+---
+
 
 
 
